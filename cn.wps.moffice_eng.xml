@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="cn.wps.moffice.writer.multiactivity.Writer1_color">3792df</string>
+    <string name="cn.wps.moffice.pdf.multiactivity.PDFReader1_color">dc553d</string>
+    <string name="cn.wps.moffice.documentmanager.PreStartActivity_color">f2f2f2</string>
+    <string name="cn.wps.moffice.documentmanager.DocumentManager_color">f2f2f2</string>
+    <string name="cn.wps.moffice.spreadsheet.multiactivity.Spreadsheet1_color">31a06b</string>
+	<string name="cn.wps.moffice.presentation.multiactivity.Presentation1_color">e0793b</string>
+</map>
