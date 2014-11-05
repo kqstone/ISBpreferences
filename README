@@ -1,0 +1,35 @@
+﻿Immersed Statusbar For Miui6 配置文件
+-----------------------------------------------------------------------------
+
+说明
+-----------------------------------------------------------------------------
+通过添加或改写配置文件以使Immersed Statusbar直接读取数据，免去自动检测的过程，使不能正确检测的程序能够适配。
+
+文件存放位置
+-----------------------------------------------------------------------------
+/sdcard/isb/
+其中有两个文件夹，profile下为xml格式配置文件，img为相应的背景文件，可添加相应的背景文件使状态栏背景与程序背景协调
+
+profile文件格式
+-----------------------------------------------------------------------------
+文件名为apk的包名.xml, 内容符合标准的xml书写格式，如：
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<profile>
+    <activity name="activity.DictSplashActivity">
+	<backgroundtype>0</backgroundtype>
+		<color>000000</color>
+	</activity>
+	<activity name="activity.MainActivity">
+		<color>2c2c2c</color>
+		<offset>5</offset>
+	</activity>
+</profile>
+需要改写的地方：
+1.activity name="", 改为相应的activity名称
+2.几个属性名：<backgroundtype>状态栏背景类型（0为纯色，1为图片，默认为0，使用1时就需要在img文件夹下添加720*50大小的png图片）</backgroundtype>
+              <color>状态栏颜色（RGB格式）<color>
+			  <backgroundfile>背景图片名称，可不填（不填默认以activity的名称）</backgroundfile>
+			  <offset>有些activity顶部存在渐变色，如小米商城，可以通过这个属性设置使程序上移的数值</offset>
+
+------------------------------------------------------------------------------
+大家可以fork之后添加相应的配置文件，再pull回来
