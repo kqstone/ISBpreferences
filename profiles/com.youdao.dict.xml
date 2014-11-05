@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<map>
-    <string name="activity.DictSplashActivity_color">000000</string>
-	<string name="activity.MainActivity_color">2c2c2c</string>
-    <int name="activity.MainActivity_offset" value="5" />
-</map>
+<profile>
+    <activity name="activity.DictSplashActivity">
+		<color>000000</color>
+	</activity>
+	<activity name="activity.MainActivity">
+		<color>2c2c2c</color>
+		<offset>5</offset>
+	</activity>
+</profile>

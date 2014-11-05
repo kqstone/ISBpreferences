@@ -1,9 +1,24 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<map>
-    <string name="cn.wps.moffice.writer.multiactivity.Writer1_color">3792df</string>
-    <string name="cn.wps.moffice.pdf.multiactivity.PDFReader1_color">dc553d</string>
-    <string name="cn.wps.moffice.documentmanager.PreStartActivity_color">f2f2f2</string>
-    <string name="cn.wps.moffice.documentmanager.DocumentManager_color">f2f2f2</string>
-    <string name="cn.wps.moffice.spreadsheet.multiactivity.Spreadsheet1_color">31a06b</string>
-	<string name="cn.wps.moffice.presentation.multiactivity.Presentation1_color">e0793b</string>
-</map>
+<profile>
+    <activity name="cn.wps.moffice.writer.multiactivity.Writer1">
+		<color>3792df</color>
+	</activity>
+    <activity name="cn.wps.moffice.pdf.multiactivity.PDFReader1">
+		<color>dc553d</color>
+	</activity>
+    <activity name="cn.wps.moffice.documentmanager.PreStartActivity">
+		<color>f2f2f2</color>
+	</activity>
+    <activity name="cn.wps.moffice.documentmanager.DocumentManager">
+		<color>f2f2f2</color>
+	</activity>
+    <activity name="cn.wps.moffice.spreadsheet.multiactivity.Spreadsheet1">
+		<color>31a06b</color>
+	</activity>
+	<activity name="cn.wps.moffice.presentation.multiactivity.Presentation1">
+		<color>e0793b</color>
+	</activity>
+	<activity name="cn.wps.moffice.startactivity.presentation.StartPresentationActivity1">
+		<color>e0793b</color>
+	</activity>
+</profile>
