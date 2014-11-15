@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <profile>
     <activity name="activity.DictSplashActivity">
-		<color>000000</color>
+		<color>ffffff</color>
 	</activity>
 	<activity name="activity.MainActivity">
 		<color>2c2c2c</color>
-		<offset>5</offset>
+		<offset>8</offset>
 	</activity>
 </profile>
