@@ -2,9 +2,9 @@
 <profile>
     <activity name="LoginActivity">
 		<color>f4f4f2</color>
+	</activity>
     <activity name="mapsearch.PoiSearchActivity">
 		<color>ffffff</color>
-	</activity>
 	</activity>
     <activity name="MainActivity">
 		<backgroundtype>1</backgroundtype>
