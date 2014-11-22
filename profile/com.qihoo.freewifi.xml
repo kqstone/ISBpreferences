@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<profile>
+	<activity name="activity.MainActivity">
+        <color>343441</color>
+	</activity>
+	<activity name="activity.SettingActivity">
+        <color>343441</color>
+	</activity>
+</profile>
