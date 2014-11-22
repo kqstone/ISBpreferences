@@ -6,29 +6,9 @@
     <activity name="mapsearch.PoiSearchActivity">
 		<color>ffffff</color>
 	</activity>
-    <activity name="MainActivity">
+    <activity name="AllActivities">
 		<backgroundtype>1</backgroundtype>
 		<backgroundfile>MyBus</backgroundfile>
 		<offset>2</offset>
-	</activity>	
-    <activity name="ZhanZhanParamActivity">
-		<backgroundtype>1</backgroundtype>
-		<backgroundfile>MyBus</backgroundfile>
-		<offset>2</offset>
-	</activity>	
-    <activity name="MainTabHostActivity">
-		<backgroundtype>1</backgroundtype>
-		<backgroundfile>MyBus</backgroundfile>
-		<offset>2</offset>
-	</activity>	
-    <activity name="RouteParamActivity">
-		<backgroundtype>1</backgroundtype>
-		<backgroundfile>MyBus</backgroundfile>
-		<offset>2</offset>
-	</activity>	
-    <activity name="StationsResultActivity">
-		<backgroundtype>1</backgroundtype>
-		<backgroundfile>MyBus</backgroundfile>
-		<offset>2</offset>
-	</activity>	
+	</activity>
 </profile>
