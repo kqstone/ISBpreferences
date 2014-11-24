@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<profile>
+    <activity name="AllActivities">
+		<color>f9f9f9</color>
+	</activity>
+	<activity name="com.taobao.tao.homepage.MainActivity3">
+		<color>ff5000</color>
+	</activity>
+	<activity name="com.taobao.allspark.activity.AllSparkMainActivity">
+		<color>eeeeee</color>
+	</activity>
+</profile>
