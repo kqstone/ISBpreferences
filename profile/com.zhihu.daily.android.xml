@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <profile>
-<activity name="activity.NewsActivity_">
+	<activity name="AllActivities">
         <color>00a2ed</color>
-</activity>
+	</activity>
+	<activity name="activity.ImageViewActivity_">
+        <color>000000</color>
+	</activity>
 </profile>
