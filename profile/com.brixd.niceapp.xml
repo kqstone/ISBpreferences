@@ -6,7 +6,4 @@
 	<activity name="activity.SplashActivity">
 		<backgroundtype>2</backgroundtype>
 	</activity>
-	<activity name="AllActivities">
-		<offset>5</offset>
-	</activity>
 </profile>
