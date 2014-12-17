@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <profile>
-	<activity name="AllActivities">
+	<activity name="activity.NiceAppContentActivity">
 		<backgroundtype>2</backgroundtype>
+	</activity>
+	<activity name="activity.SplashActivity">
+		<backgroundtype>2</backgroundtype>
+	</activity>
+	<activity name="AllActivities">
+		<offset>5</offset>
 	</activity>
 </profile>
